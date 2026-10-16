@@ -10,8 +10,6 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
-  cacheComponents: true,
-  partialPrefetching: true,
   images: {
     loader: "custom",
     loaderFile: "./lib/image-loader.ts",
