@@ -97,6 +97,12 @@ export function Footer() {
           <div className="lg:text-right">
             <p className="font-serif text-[15px]">Property Stewardship, Reimagined.</p>
             <p className="mt-1 text-xs text-white/55">© 2026 NUMU Property Management. All rights reserved.</p>
+            <p className="mt-1 text-xs text-white/55">
+              Designed and developed by{" "}
+              <a href="https://360growthlab.com" className="hover:text-gold-400">
+                360growthlab
+              </a>
+            </p>
           </div>
         </div>
       </Container>
