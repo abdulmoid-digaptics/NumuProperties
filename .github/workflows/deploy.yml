@@ -1,0 +1,30 @@
+name: Deploy NUMU Property Management
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-numu
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy to Hostinger VPS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger VPS Static Deployment
+        uses: appleboy/ssh-action@v1.2.2
+        with:
+          host: 72.61.0.11
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            set -euo pipefail
+            cd /root/NumuProperties
+            git fetch origin main
+            git checkout -B main origin/main
+            git pull --ff-only origin main
+            /root/deploy-numupropertymgmt.sh
