@@ -31,8 +31,7 @@ import {
 } from "@/components/site/primitives";
 
 export const metadata: Metadata = {
-  title: "For Tenants",
-  description: "Quality homes. Responsive management. A better rental experience.",
+  title: "For Tenants"
 };
 
 const reasons = [

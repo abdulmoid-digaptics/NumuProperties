@@ -33,8 +33,7 @@ import {
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Short Term Rental Investments & Management",
-  description: "Turn exceptional properties into exceptional returns with NUMU short term rental management.",
+  title: "Short Term Rental Investments & Management"
 };
 
 const benefits = [

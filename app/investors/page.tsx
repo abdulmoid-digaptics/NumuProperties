@@ -34,8 +34,7 @@ import {
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Investor Services",
-  description: "Build wealth through strategic real estate — from short term rentals to long-term holdings.",
+  title: "Investor Services"
 };
 
 const paths = [

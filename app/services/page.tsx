@@ -16,8 +16,7 @@ import {
 } from "@/components/site/primitives";
 
 export const metadata: Metadata = {
-  title: "Services",
-  description: "Complete property management, investor services and property improvements from NUMU.",
+  title: "Services"
 };
 
 const pillars = [

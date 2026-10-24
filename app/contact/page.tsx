@@ -7,8 +7,7 @@ import { Container, Eyebrow, Gold, Heading, HeroLead, PageHero } from "@/compone
 import { contact, team } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Get in touch with NUMU Property Management in Oakbrook Terrace, Illinois.",
+  title: "Contact"
 };
 
 function SolidIcon({ icon: Icon }: { icon: typeof Phone }) {

@@ -30,8 +30,7 @@ import { team } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: "NUMU partners with investors to acquire, manage, and grow high-performing real estate assets.",
+  title: "About"
 };
 
 const stats = [

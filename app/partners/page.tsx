@@ -6,8 +6,7 @@ import { CtaButton } from "@/components/site/cta-button";
 import { Container, Eyebrow, Gold, Heading, HeroActions, HeroLead, PageHero, Section } from "@/components/site/primitives";
 
 export const metadata: Metadata = {
-  title: "Our Partners",
-  description: "NUMU collaborates with trusted partners to deliver exceptional property management experiences.",
+  title: "Our Partners"
 };
 
 const partners = [

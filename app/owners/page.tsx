@@ -29,8 +29,7 @@ import {
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "For Property Owners",
-  description: "Protect your investment, increase returns, and enjoy a truly hands-off ownership experience.",
+  title: "For Property Owners"
 };
 
 const benefits = [

@@ -17,11 +17,13 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "NUMU Property Management | Technology-Enabled Property Management",
+    default: "NUMU Property Management",
     template: "%s | NUMU Property Management",
   },
-  description:
-    "Complete property care, transparent reporting, investor services, and project oversight — built for lasting value.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export const viewport: Viewport = {
