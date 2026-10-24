@@ -7,3 +7,5 @@ npm install
 npm run dev     # http://localhost:3000
 npm run build   # production build
 ```
+
+<!-- CI/CD verification push test: 2026-10-24 06:15:51 -->
