@@ -33,39 +33,50 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 
-  /* NUMU brand palette, sampled from the design mockups */
-  --color-navy-950: #071426;
-  --color-navy-900: #0b1c33;
-  --color-navy-800: #12284a;
-  --color-navy-700: #1b3560;
-  --color-gold-300: #f0cd8d;
-  --color-gold-400: #e8b867;
-  --color-gold-500: #d6a256;
-  --color-gold-600: #b9853d;
-  --color-cream: #f7f4ee;
-  --color-sand: #efebe3;
-  --color-ink: #13233b;
+  /* NUMU brand palette */
+  --color-logo-green: #33A17E;
+  --color-primary-green: #35A283;
+  --color-charcoal: #19191D;
+  --color-charcoal-950: #101013;
+  --color-charcoal-900: #19191D;
+  --color-charcoal-800: #232328;
+  --color-charcoal-700: #2E2E35;
+  --color-off-white: #F7F8F5;
+  --color-muted-gray: #69726F;
+
+  /* Theme mappings for existing design tokens */
+  --color-navy-950: #101013;
+  --color-navy-900: #19191D;
+  --color-navy-800: #232328;
+  --color-navy-700: #2E2E35;
+  --color-gold-300: #48B898;
+  --color-gold-400: #35A283;
+  --color-gold-500: #33A17E;
+  --color-gold-600: #288066;
+  --color-cream: #F7F8F5;
+  --color-sand: #EEF0EB;
+  --color-ink: #19191D;
 }
 
 :root {
   --background: #ffffff;
-  --foreground: #13233b;
+  --foreground: #19191D;
   --card: #ffffff;
-  --card-foreground: #13233b;
+  --card-foreground: #19191D;
   --popover: #ffffff;
-  --popover-foreground: #13233b;
-  --primary: #0b1c33;
+  --popover-foreground: #19191D;
+  --primary: #19191D;
   --primary-foreground: #ffffff;
-  --secondary: #f7f4ee;
-  --secondary-foreground: #13233b;
-  --muted: #f3f0ea;
-  --muted-foreground: #5b6474;
-  --accent: #f7efe1;
-  --accent-foreground: #13233b;
+  --secondary: #F7F8F5;
+  --secondary-foreground: #19191D;
+  --muted: #F0F2ED;
+  --muted-foreground: #69726F;
+  --accent: #EDF5F2;
+  --accent-foreground: #19191D;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #e5e0d6;
-  --input: #ddd7cc;
-  --ring: #d6a256;
+  --border: #E2E5E0;
+  --input: #D6DAD3;
+  --ring: #35A283;
   --radius: 0.625rem;
 }
 

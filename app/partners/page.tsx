@@ -13,9 +13,9 @@ const partners = [
   {
     name: "Workspace Junction",
     logo: "/img/logo-workspace.png",
-    logoSize: [159, 50],
+    logoSize: [150, 101],
     category: "Operations & On-Site Support",
-    color: "#1f5f3a",
+    color: "#0e3421",
     text: "Workspace Junction supports our properties with mail handling, package delivery, key management, and administrative services. They help ensure smooth day-to-day operations and an excellent resident experience.",
     image: "/img/partner-workspace.jpg",
     items: ["Mail & package handling", "Key management & access support", "Administrative services", "Resident support and communication"],
@@ -33,7 +33,7 @@ const partners = [
   {
     name: "360 Growth Lab",
     logo: "/img/logo-360.png",
-    logoSize: [143, 50],
+    logoSize: [552, 146],
     category: "Technology & Digital Solutions",
     color: "#15233a",
     check: "#1f5f3a",
@@ -42,12 +42,13 @@ const partners = [
     items: ["Property websites and listing management", "CRM and automation", "Resident portals and communication tools", "Digital marketing and lead generation"],
   },
   {
-    name: "Impact Builders",
-    logo: "/img/logo-impact.png",
-    logoSize: [124, 54],
+    name: "Craft Build Renovators",
+    logo: "/img/logo-craftbuild.png",
+    logoSize: [389, 304],
     category: "Repairs & General Contracting",
-    color: "#b3242b",
-    text: "Impact Builders provides reliable repair and construction services. From routine maintenance to larger renovations, they ensure our properties are safe, functional, and always looking their best.",
+    color: "#be8e46",
+    check: "#0f304a",
+    text: "Craft Build Renovators provides reliable repair and construction services. From routine maintenance to larger renovations, they ensure our properties are safe, functional, and always looking their best.",
     image: "/img/partner-impact.jpg",
     items: ["General repairs and maintenance", "Renovations and unit upgrades", "Emergency repair services", "Quality workmanship and timely service"],
   },
@@ -120,7 +121,7 @@ export default function PartnersPage() {
               <li key={p.name}>
                 <article className="flex h-full flex-col rounded-xl border border-black/5 bg-white p-5 shadow-[0_14px_40px_-26px_rgba(11,28,51,0.45)] sm:p-6">
                   <div className="flex items-center justify-between gap-4">
-                    <Image src={p.logo} alt={`${p.name} logo`} width={p.logoSize[0]} height={p.logoSize[1]} className="h-11 w-auto object-contain" />
+                    <Image src={p.logo} alt={`${p.name} logo`} width={p.logoSize[0]} height={p.logoSize[1]} className="h-11 max-w-[58%] w-auto object-contain" />
                     <p className="max-w-[140px] text-right text-[13px] leading-snug font-bold" style={{ color: p.color }}>
                       {p.category}
                     </p>

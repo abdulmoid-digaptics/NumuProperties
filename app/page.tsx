@@ -216,7 +216,7 @@ export default function HomePage() {
 
       {/* Owner dashboard */}
       <section className="relative overflow-hidden bg-navy-900 py-14 text-white sm:py-16 lg:py-20">
-        <div aria-hidden className="absolute inset-y-0 right-0 w-2/3 bg-[radial-gradient(ellipse_at_center,rgba(232,184,103,0.12),transparent_65%)]" />
+        <div aria-hidden className="absolute inset-y-0 right-0 w-2/3 bg-[radial-gradient(ellipse_at_center,rgba(53,162,131,0.12),transparent_65%)]" />
         <Container className="relative grid items-center gap-10 lg:grid-cols-[0.85fr_1.15fr]">
           <div data-reveal>
             <Eyebrow>Technology-Enabled</Eyebrow>

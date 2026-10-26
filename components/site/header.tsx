@@ -47,7 +47,7 @@ export function Header() {
       )}
     >
       <Container className="flex h-[72px] items-center justify-between gap-4 sm:h-[88px]">
-        <Logo />
+        <Logo transparent />
 
         <nav aria-label="Main" className="hidden items-center gap-3.5 xl:flex xl:gap-7">
           {mainNav.map((item) =>
@@ -91,7 +91,7 @@ export function Header() {
             <SheetContent side="right" className="w-[86%] max-w-sm border-white/10 bg-navy-900 p-0 text-white [&_[data-slot=sheet-close]]:text-white">
               <SheetTitle className="sr-only">Menu</SheetTitle>
               <div className="border-b border-white/10 p-5">
-                <Logo />
+                <Logo transparent />
               </div>
               <nav aria-label="Mobile" className="flex-1 overflow-y-auto px-5 py-4">
                 <ul className="space-y-1">

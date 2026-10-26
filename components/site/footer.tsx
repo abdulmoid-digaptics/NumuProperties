@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { contact, mainNav } from "@/lib/site";
 import { Logo } from "./logo";
 import { CtaButton } from "./cta-button";
@@ -61,11 +62,6 @@ export function Footer() {
           </nav>
           <ul className="flex flex-wrap gap-x-7 gap-y-2 text-[13px] text-white/75">
             <li>
-              <a href={contact.phoneHref} className="inline-flex items-center gap-2 hover:text-gold-400">
-                <Phone className="size-3.5 text-gold-400" /> {contact.phone}
-              </a>
-            </li>
-            <li>
               <a href={`mailto:${contact.email}`} className="inline-flex items-center gap-2 break-all hover:text-gold-400">
                 <Mail className="size-3.5 shrink-0 text-gold-400" /> {contact.email}
               </a>
@@ -97,12 +93,24 @@ export function Footer() {
           <div className="lg:text-right">
             <p className="font-serif text-[15px]">Property Stewardship, Reimagined.</p>
             <p className="mt-1 text-xs text-white/55">© 2026 NUMU Property Management. All rights reserved.</p>
-            <p className="mt-1 text-xs text-white/55">
-              Designed and developed by{" "}
-              <a href="https://360growthlab.com" className="hover:text-gold-400">
-                360growthlab
+            <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-white/55 lg:justify-end">
+              <span>Designed and developed by</span>
+              <a
+                href="https://360growthlab.com"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center transition-opacity hover:opacity-85"
+                aria-label="360growthlab"
+              >
+                <Image
+                  src="/img/logo-360growthlab.png"
+                  alt="360growthlab"
+                  width={552}
+                  height={146}
+                  className="h-5.5 w-auto object-contain sm:h-6"
+                />
               </a>
-            </p>
+            </div>
           </div>
         </div>
       </Container>

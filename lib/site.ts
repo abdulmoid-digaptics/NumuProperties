@@ -75,8 +75,6 @@ export const team: TeamMember[] = [
 ];
 
 export const contact = {
-  phone: "(312) 555-0180",
-  phoneHref: "tel:+13125550180",
   email: "info@numupropertymgmt.com",
   hours: "Mon – Fri, 9AM – 5PM CT",
   address: ["17W574 Butterfield Road", "Suite 100", "Oakbrook Terrace, IL 60181"],

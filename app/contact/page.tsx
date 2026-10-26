@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { CalendarCheck, Car, Clock, Mail, MapPin, Phone } from "lucide-react";
+import { CalendarCheck, Car, Clock, Mail, MapPin } from "lucide-react";
 import { ContactForm } from "@/components/site/contact-form";
 import { CtaButton } from "@/components/site/cta-button";
 import { Container, Eyebrow, Gold, Heading, HeroLead, PageHero } from "@/components/site/primitives";
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Contact"
 };
 
-function SolidIcon({ icon: Icon }: { icon: typeof Phone }) {
+function SolidIcon({ icon: Icon }: { icon: typeof Mail }) {
   return (
     <span className="inline-flex size-12 shrink-0 items-center justify-center rounded-full bg-navy-900 text-gold-400">
       <Icon className="size-5" strokeWidth={1.7} />
@@ -40,18 +40,8 @@ export default function ContactPage() {
       {/* Contact methods */}
       <section className="border-b border-black/5 bg-white">
         <Container>
-          <ul data-stagger className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
-            <li className="flex gap-4 py-6 xl:pr-6">
-              <SolidIcon icon={Phone} />
-              <div>
-                <p className="text-sm font-semibold text-navy-900">Call Us</p>
-                <a href={contact.phoneHref} className="inline-block py-1 font-serif text-lg text-navy-900 hover:text-gold-600">
-                  {contact.phone}
-                </a>
-                <p className="text-xs text-slate-500">{contact.hours}</p>
-              </div>
-            </li>
-            <li className="flex gap-4 py-6 sm:pl-6 xl:border-l xl:border-black/10 xl:px-6">
+          <ul data-stagger className="grid grid-cols-1 md:grid-cols-3">
+            <li className="flex gap-4 py-6 md:pr-6">
               <SolidIcon icon={Mail} />
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-navy-900">Email Us</p>
@@ -61,7 +51,7 @@ export default function ContactPage() {
                 <p className="text-xs text-slate-500">We typically respond within one business day.</p>
               </div>
             </li>
-            <li className="flex gap-4 py-6 xl:border-l xl:border-black/10 xl:px-6">
+            <li className="flex gap-4 py-6 md:border-l md:border-black/10 md:px-6">
               <SolidIcon icon={MapPin} />
               <div>
                 <p className="text-sm font-semibold text-navy-900">Visit Our Office</p>
@@ -69,12 +59,12 @@ export default function ContactPage() {
                 <p className="text-xs text-slate-500">Schedule a meeting in person or virtually.</p>
               </div>
             </li>
-            <li className="flex gap-4 py-6 sm:pl-6 xl:border-l xl:border-black/10 xl:px-6">
+            <li className="flex gap-4 py-6 md:border-l md:border-black/10 md:pl-6">
               <SolidIcon icon={CalendarCheck} />
               <div>
                 <p className="text-sm font-semibold text-navy-900">Book a Meeting</p>
                 <CtaButton variant="gold" className="mt-0.5 min-h-0 bg-transparent px-0 py-1 font-serif text-lg text-gold-600 shadow-none hover:bg-transparent hover:text-gold-500">
-                  Schedule a Call
+                  Schedule a Consultation
                 </CtaButton>
                 <p className="text-xs text-slate-500">Let’s discuss your needs.</p>
               </div>
@@ -113,12 +103,6 @@ export default function ContactPage() {
                         </span>
                       ))}
                     </address>
-                  </li>
-                  <li className="flex gap-3">
-                    <Phone className="size-4 shrink-0 text-gold-500" />
-                    <a href={contact.phoneHref} className="inline-block py-1 hover:text-gold-600">
-                      {contact.phone}
-                    </a>
                   </li>
                   <li className="flex gap-3">
                     <Mail className="size-4 shrink-0 text-gold-500" />
