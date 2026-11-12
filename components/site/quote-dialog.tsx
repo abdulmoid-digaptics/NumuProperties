@@ -30,12 +30,12 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
       <Script src="https://links.360growthlab.com/js/form_embed.js" strategy="lazyOnload" />
       <Dialog open={isOpen} onOpenChange={setOpen}>
         <DialogContent className="max-h-[calc(100dvh-2rem)] w-[92vw] sm:w-[85vw] md:w-[65vw] lg:w-[40%] max-w-none sm:max-w-none gap-0 overflow-hidden rounded-2xl bg-white p-3 sm:p-5">
-          <DialogTitle className="sr-only">Prepare Email request Moid Form</DialogTitle>
+          <DialogTitle className="sr-only">Prepare Email Moid Form</DialogTitle>
           <div className="h-[85vh] max-h-[850px] w-full overflow-y-auto">
             <iframe
-              src="https://links.360growthlab.com/widget/form/g4tD0RQSy72I44SiRiHu"
-              style={{ width: "100%", height: "100%", border: "none", borderRadius: "8px", minHeight: "680px" }}
-              id="inline-g4tD0RQSy72I44SiRiHu"
+              src="https://links.360growthlab.com/widget/form/NjxJcroeN907Nabw7SzO"
+              style={{ width: "100%", height: "100%", border: "none", borderRadius: "8px", minHeight: "785px" }}
+              id="popup-NjxJcroeN907Nabw7SzO"
               data-layout="{'id':'INLINE'}"
               data-trigger-type="alwaysShow"
               data-trigger-value=""
@@ -43,13 +43,13 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
               data-activation-value=""
               data-deactivation-type="neverDeactivate"
               data-deactivation-value=""
-              data-form-name="Prepare Email request Moid Form"
-              data-height="1283"
-              data-layout-iframe-id="inline-g4tD0RQSy72I44SiRiHu"
-              data-form-id="g4tD0RQSy72I44SiRiHu"
+              data-form-name="Prepare Email Moid Form"
+              data-height="785"
+              data-layout-iframe-id="popup-NjxJcroeN907Nabw7SzO"
+              data-form-id="NjxJcroeN907Nabw7SzO"
               data-cookie-consent="true"
               data-cookie-consent-provider="auto"
-              title="Prepare Email request Moid Form"
+              title="Prepare Email Moid Form"
             />
           </div>
         </DialogContent>

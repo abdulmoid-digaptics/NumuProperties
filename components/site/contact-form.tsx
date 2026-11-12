@@ -4,7 +4,7 @@ import Script from "next/script";
 
 export function ContactForm() {
   return (
-    <div className="mt-6 overflow-hidden rounded-xl border border-black/5 bg-white">
+    <div className="overflow-hidden bg-white">
       <iframe
         src="https://links.360growthlab.com/widget/form/NjxJcroeN907Nabw7SzO"
         style={{ width: "100%", height: "100%", border: "none", borderRadius: "8px" }}
