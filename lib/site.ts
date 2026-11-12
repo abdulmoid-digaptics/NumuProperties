@@ -77,5 +77,5 @@ export const team: TeamMember[] = [
 export const contact = {
   email: "info@numupropertymgmt.com",
   hours: "Mon – Fri, 9AM – 5PM CT",
-  address: ["17W574 Butterfield Road", "Suite 100", "Oakbrook Terrace, IL 60181"],
+  address: ["1S280 Summit Avenue", "Unit E2, Suite 2P", "Oakbrook Terrace, IL 60181"],
 };

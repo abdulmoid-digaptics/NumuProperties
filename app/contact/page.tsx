@@ -122,7 +122,7 @@ export default function ContactPage() {
               </div>
             </div>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=17W574+Butterfield+Road+Oakbrook+Terrace+IL+60181"
+              href="https://www.google.com/maps/search/?api=1&query=1S280+Summit+Avenue+Unit+E2+Suite+2P+Oakbrook+Terrace+IL+60181"
               target="_blank"
               rel="noreferrer"
               className="relative block aspect-[16/7] w-full overflow-hidden rounded-xl border border-black/5 sm:aspect-[697/180] lg:aspect-auto lg:min-h-48 lg:flex-1"
