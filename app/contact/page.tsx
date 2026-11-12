@@ -77,11 +77,6 @@ export default function ContactPage() {
       <section className="bg-cream py-14 sm:py-16 lg:py-20">
         <Container className="grid gap-6 lg:grid-cols-[1.05fr_1fr]">
           <div data-reveal className="rounded-xl border border-black/5 bg-white p-5 shadow-[0_14px_40px_-26px_rgba(11,28,51,0.45)] sm:p-8">
-            <Eyebrow>Send Us a Message</Eyebrow>
-            <Heading className="mt-3 text-navy-900">We’d Love to Hear From You</Heading>
-            <p className="mt-2 text-sm leading-relaxed text-slate-600 sm:text-[15px]">
-              Fill out the form below, then open your email app to review and send your message.
-            </p>
             <ContactForm />
           </div>
 
